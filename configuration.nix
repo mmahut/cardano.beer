@@ -27,7 +27,7 @@
 
   # Enable the OpenSSH daemon
   services.openssh.enable = true;
-  services.openssh.permitRootLogin = "yes";
+  services.openssh.permitRootLogin = "no";
 
   # User management
   users.extraUsers.mmahut = {
